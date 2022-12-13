@@ -1,0 +1,83 @@
+.Container__card {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: flex-start;
+}
+
+.card {
+    width: 300px;
+    max-height: 230px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgba(4, 3, 14, 0.912);
+    ;
+    color: black;
+    align-self: flex-start;
+    color: rgb(240, 242, 255);
+}
+
+.card__gift {
+    color: rgb(220, 212, 212);
+    padding: 0 6px;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 8px 0;
+
+}
+
+.card__hr {
+    margin: 0 7px;
+    color: black;
+
+}
+
+.card__span {
+    display: block;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+
+.icons {
+    padding: 0 6px;
+    color: white;
+}
+
+.card__item {
+    padding: 0 10px;
+}
+
+.container__botton {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.botton__botton {
+    background: inherit;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 5px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: transform 1ms ease;
+    color: white;
+    border: 1px solid black;
+}
+
+.botton__botton:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
