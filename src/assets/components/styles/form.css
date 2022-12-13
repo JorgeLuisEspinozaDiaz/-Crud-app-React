@@ -14,7 +14,7 @@
 .form__form {
     width: 320px;
     min-height: 400px;
-    background: rgb(16, 16, 16);
+    background: rgba(1, 0, 8, 0.968);
     position: relative;
     padding: 60px 10px;
     border-radius: 7px;
@@ -81,6 +81,7 @@
     border: none;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 .form__btn {
@@ -88,4 +89,6 @@
     width: 100%;
     height: 40px;
     border-radius: 5px;
+    cursor: pointer;
+
 }

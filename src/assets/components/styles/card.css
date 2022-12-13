@@ -10,6 +10,7 @@
     gap: 10px;
     align-content: flex-start;
     margin-top: 30px;
+
 }
 
 .card {
@@ -23,10 +24,9 @@
     box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
     -webkit-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
     -moz-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+
+
 }
-
-
-
 
 .card__gift {
     color: rgb(220, 212, 212);

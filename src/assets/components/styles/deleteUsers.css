@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 5555555;
+
 }
 
 
@@ -20,12 +20,21 @@
     min-height: 150px;
     background: rgba(4, 3, 14, 0.912);
     border-radius: 7px 7px 7px 7px;
+    box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
 }
 
 .btn__x {
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 10px;
     right: 10px;
+    border-radius: 50%;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .delete__title {
@@ -52,8 +61,11 @@
     border: none;
     cursor: pointer;
     font-size: 20px;
-    background: rgba(74, 44, 121, 0.987);
+    background: rgba(4, 3, 14, 0.912);
     text-align: center;
     color: white;
     border-radius: 5px 5px 5px 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
 }
