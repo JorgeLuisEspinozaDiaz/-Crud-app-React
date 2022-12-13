@@ -9,19 +9,24 @@
     flex-wrap: wrap;
     gap: 10px;
     align-content: flex-start;
+    margin-top: 30px;
 }
 
 .card {
     width: 300px;
     max-height: 230px;
     border-radius: 10px;
-    margin-top: 30px;
-    background: rgba(4, 3, 14, 0.912);
-    ;
+    background: rgba(1, 0, 8, 0.912);
     color: black;
     align-self: flex-start;
     color: rgb(240, 242, 255);
+    box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
 }
+
+
+
 
 .card__gift {
     color: rgb(220, 212, 212);

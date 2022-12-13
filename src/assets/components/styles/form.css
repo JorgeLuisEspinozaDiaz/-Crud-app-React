@@ -17,8 +17,10 @@
     background: rgb(16, 16, 16);
     position: relative;
     padding: 60px 10px;
-    border-radius: 5px;
-
+    border-radius: 7px;
+    box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 9px 8px 10px 3px rgba(0, 0, 0, 0.72);
 }
 
 .form__logo {
